@@ -1,0 +1,56 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "homepage": "https://yuri-scarbaci-lenio.github.io/react-design-systems-onclick-focus-analysis",
+  "private": true,
+  "dependencies": {
+    "@adobe/react-spectrum": "3.17.0",
+    "@babel/core": "7.17.10",
+    "@babel/runtime": "7.17.9",
+    "@emotion/react": "11.9.0",
+    "@emotion/styled": "11.8.1",
+    "@fluentui/react": "^8.67.4",
+    "@mui/material": "5.7.0",
+    "@testing-library/dom": ">=7.21.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "^18.0.3",
+    "@types/styled-components": "5.1.25",
+    "react": "^18.1.0",
+    "react-dom": "^16.8.0 || ^17.0.0-rc.1 >=16.8.0 <18.0.0 ^18.0.0 ^17.0.0 || ^18.0.0 >= 16.8.0",
+    "react-is": "18.1.0",
+    "react-router-dom": "5.3.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "5.3.5",
+    "typescript": "3.9.10",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "react-scripts": "latest"
+  },
+  "overrides": {
+    "@types/react": "18.0.0"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

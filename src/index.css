@@ -1,0 +1,127 @@
+body {
+  background-color: #ffcc00;
+  padding: 20px;
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+.active {
+  background-color: #0099ff;
+}
+.content {
+  background-color: #fff;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.codeBlock {
+  font-weight: bold;
+  color: #ffa600;
+  background-color: #000;
+  padding: 2px 4px;
+}
+.action {
+  font-weight: bold;
+  color: rgb(246, 250, 31);
+  background-color: #333;
+  padding: 2px 4px;
+}
+.actionTarget {
+  font-weight: bold;
+  color: #ffa600;
+  background-color: #333;
+  padding: 2px 4px;
+}
+.quoteBlock {
+  color: #222;
+  background-color: #eee;
+  padding: 2px 8px;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+}
+.demoBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'componentContainer resetFocusZone'
+    'focusedElementPreviewWrapper focusedElementPreviewWrapper';
+  justify-items: center;
+  align-items: center;
+}
+.componentContainer {
+  grid-area: componentContainer;
+}
+.resetFocusZone {
+  grid-area: resetFocusZone;
+}
+.focusedElementPreviewWrapper {
+  width: 100%;
+  min-height: 100px;
+  grid-area: focusedElementPreviewWrapper;
+  background-color: #eee;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 15px;
+}
+.focusedElementWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentWrapper {
+  background-color: white;
+  color: #000;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.conclusionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: min-content min-content 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'conclusionHeader conclusionHeader conclusionHeader'
+    '. . . '
+    '. . . ';
+  justify-items: center;
+  align-items: center;
+}
+
+.conclusionHeader {
+  grid-area: conclusionHeader;
+}
+.extraConclusionInfo ul {
+}
+.extraConclusionInfo ul li {
+  line-height: 1.7;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
