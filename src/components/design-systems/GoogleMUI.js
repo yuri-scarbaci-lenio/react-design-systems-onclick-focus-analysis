@@ -6,7 +6,7 @@ export const GoogleMUI = () => (
     <div>
       <h2>Google - Material UI</h2>
       <p>
-        <a href="https://mui.com/material-ui/react-button/" target="_blank">
+        <a href="https://mui.com/material-ui/react-button/" target="_blank" rel="noreferrer">
           Docs
         </a>
       </p>

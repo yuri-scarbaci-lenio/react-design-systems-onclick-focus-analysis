@@ -10,6 +10,7 @@ export const Chackra = () => (
         <a
           href="https://chakra-ui.com/docs/components/form/button"
           target="_blank"
+          rel="noreferrer"
         >
           Docs
         </a>

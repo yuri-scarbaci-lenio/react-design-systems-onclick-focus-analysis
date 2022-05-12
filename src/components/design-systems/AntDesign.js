@@ -6,7 +6,7 @@ export const AntDesign = () => (
     <div>
       <h2>Antgroup - Ant Design (react-bootstrap flavour)</h2>
       <p>
-        <a href="https://ant.design/components/button/" target="_blank">
+        <a href="https://ant.design/components/button/" target="_blank" rel="noreferrer">
           Docs
         </a>
       </p>

@@ -7,7 +7,7 @@ export const Bootstrap = () => (
       <p>
         <a
           href="https://react-bootstrap.github.io/components/buttons/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Docs
         </a>

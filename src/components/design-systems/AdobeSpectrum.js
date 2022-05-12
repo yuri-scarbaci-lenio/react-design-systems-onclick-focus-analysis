@@ -10,7 +10,7 @@ export const AdobeSpectrum = () => (
         <p>
           <a
             href="https://react-spectrum.adobe.com/react-spectrum/Button.html"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Docs
           </a>
@@ -35,7 +35,7 @@ export const AdobeSpectrum = () => (
             Components are wrapped in a{' '}
             <a
               href="https://github.com/adobe/react-spectrum/blob/main/packages/%40react-aria/focus/src/FocusRing.tsx"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               component
             </a>{' '}
@@ -43,7 +43,7 @@ export const AdobeSpectrum = () => (
             event and based on the{' '}
             <a
               href="https://github.com/adobe/react-spectrum/blob/main/packages/%40react-aria/interactions/src/useFocusWithin.ts"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               focusWithIn callback
             </a>{' '}
@@ -90,7 +90,7 @@ export const AdobeSpectrum = () => (
                   function flow must be{' '}
                   <a
                     href="https://github.com/adobe/react-spectrum/blob/main/packages/%40react-aria/interactions/src/useFocus.ts#L33"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     intercepted and derived
                   </a>
@@ -111,7 +111,7 @@ export const AdobeSpectrum = () => (
             <li>
               <a
                 href="https://github.com/adobe/react-spectrum/issues/1247"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {' '}
                 known issue in spectrum{' '}
@@ -120,7 +120,7 @@ export const AdobeSpectrum = () => (
             <li>
               <a
                 href="https://github.com/adobe/react-spectrum/issues/1050"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {' '}
                 known issue in spectrum 2{' '}
@@ -129,7 +129,7 @@ export const AdobeSpectrum = () => (
             <li>
               <a
                 href="https://github.com/adobe/react-spectrum/issues/1024"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {' '}
                 known issue in spectrum 3{' '}
