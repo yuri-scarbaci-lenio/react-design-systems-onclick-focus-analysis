@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-design-systems-onclick-focus-analysis/static/css/main.bd9c6b25.css",
-    "main.js": "/react-design-systems-onclick-focus-analysis/static/js/main.54dce8c0.js",
+    "main.css": "/react-design-systems-onclick-focus-analysis/static/css/main.cdb62f72.css",
+    "main.js": "/react-design-systems-onclick-focus-analysis/static/js/main.cb7bd457.js",
     "index.html": "/react-design-systems-onclick-focus-analysis/index.html",
-    "main.bd9c6b25.css.map": "/react-design-systems-onclick-focus-analysis/static/css/main.bd9c6b25.css.map",
-    "main.54dce8c0.js.map": "/react-design-systems-onclick-focus-analysis/static/js/main.54dce8c0.js.map"
+    "main.cdb62f72.css.map": "/react-design-systems-onclick-focus-analysis/static/css/main.cdb62f72.css.map",
+    "main.cb7bd457.js.map": "/react-design-systems-onclick-focus-analysis/static/js/main.cb7bd457.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd9c6b25.css",
-    "static/js/main.54dce8c0.js"
+    "static/css/main.cdb62f72.css",
+    "static/js/main.cb7bd457.js"
   ]
 }
