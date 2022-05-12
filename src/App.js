@@ -9,6 +9,8 @@ import {
   Bootstrap,
 } from "./components/design-systems";
 import { Intro } from "./components/Intro";
+import { Usage } from "./components/Usage";
+import { Conclusions } from "./components/Conclusions";
 
 const routeMap = {
   Intro: "/",
@@ -18,6 +20,8 @@ const routeMap = {
   AntDesign: "/AntDesign",
   Chackra: "/Chackra",
   Bootstrap: "/Bootstrap",
+  Usage: "/Usage",
+  Conclusions: "/Conclusions",
 };
 
 export class App extends Component {
@@ -50,6 +54,12 @@ export class App extends Component {
             <li>
               <NavLink to={routeMap.Bootstrap}>React-bootstrap</NavLink>
             </li>
+            <li>
+              <NavLink to={routeMap.Usage}>Usage %</NavLink>
+            </li>
+            <li>
+              <NavLink to={routeMap.Conclusions}>Conclusions</NavLink>
+            </li>
           </ul>
 
           <div className="content">
@@ -65,6 +75,8 @@ export class App extends Component {
               <Route path={routeMap.AntDesign} element={<AntDesign/>} />
               <Route path={routeMap.Chackra} element={<Chackra/>} />
               <Route path={routeMap.Bootstrap} element={<Bootstrap/>} />
+              <Route path={routeMap.Usage} element={<Usage/>} />
+              <Route path={routeMap.Conclusions} element={<Conclusions/>} />
             </Routes>
           </div>
         </div>
