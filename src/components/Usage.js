@@ -4,7 +4,7 @@ import { UsageMoiva } from "./imgs/UsageMoiva";
 const TotalsGrid = () => (
   <div class="UsageTotals">
     <div class="focus-visible">
-      <h2 class="title-focus-visible">on click -{">"} focus indicator</h2>
+      <h2 class="title-focus-visible">on click -{">"} no focus indicator</h2>
       <div class="fluent">
         <h4>Fluent:</h4>
         <h3> ~440k</h3>
