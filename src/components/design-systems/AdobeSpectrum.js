@@ -81,6 +81,12 @@ export const AdobeSpectrum = () => (
                 <span className="action">additional maintenance</span>
               </li>
               <li>
+                future-to-be-usable native css pseudo-selector{" "}
+                <span className="actionTarget">:focus-visible</span> would be
+                conflicting and inconsistent (creating{" "}
+                <span className="action">tech-debt</span>)
+              </li>
+              <li>
                 to avoid common callback requirements/functionalities as{' '}
                 <span className="actionTarget">
                   .preventDefault()/.stopPropagation()
